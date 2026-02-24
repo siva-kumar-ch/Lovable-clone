@@ -1,4 +1,4 @@
-package com.personal.projects.lovableClone.Enum;
+package com.personal.projects.lovableClone.enums;
 
 public enum PreviewStatus {
     CREATING,

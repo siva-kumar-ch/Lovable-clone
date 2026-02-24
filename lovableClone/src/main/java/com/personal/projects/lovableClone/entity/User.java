@@ -1,17 +1,21 @@
-package com.personal.projects.lovableClone.Entity;
+package com.personal.projects.lovableClone.entity;
 
 import java.time.Instant;
+
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ChatSession {
-    User user;
-    Project project;
-    String title;
+public class User {
+    Integer id;
+    String name;
+    String email;
+    String password;
+    String profileImageUrl;
 
+    Boolean active;
     Instant createdAt;
     Instant updatedAt;
     Instant deletedAt;

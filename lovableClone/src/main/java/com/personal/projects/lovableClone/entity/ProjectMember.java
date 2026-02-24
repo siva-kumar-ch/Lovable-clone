@@ -1,10 +1,10 @@
-package com.personal.projects.lovableClone.Entity;
+package com.personal.projects.lovableClone.entity;
 
 import lombok.Data;
 
 import java.time.Instant;
 
-import com.personal.projects.lovableClone.Enum.ProjectRole;
+import com.personal.projects.lovableClone.enums.ProjectRole;
 
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;

@@ -1,10 +1,10 @@
-package com.personal.projects.lovableClone.Entity;
+package com.personal.projects.lovableClone.entity;
 
 import lombok.Data;
 
 import java.time.Instant;
 
-import com.personal.projects.lovableClone.Enum.SubscriptionStatus;
+import com.personal.projects.lovableClone.enums.SubscriptionStatus;
 
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;

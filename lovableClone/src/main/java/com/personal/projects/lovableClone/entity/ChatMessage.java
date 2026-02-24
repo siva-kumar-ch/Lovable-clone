@@ -1,8 +1,8 @@
-package com.personal.projects.lovableClone.Entity;
+package com.personal.projects.lovableClone.entity;
 
 import java.time.Instant;
 
-import com.personal.projects.lovableClone.Enum.MessageRole;
+import com.personal.projects.lovableClone.enums.MessageRole;
 
 public class ChatMessage {
     Integer id;

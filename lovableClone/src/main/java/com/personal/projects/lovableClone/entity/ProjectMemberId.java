@@ -1,4 +1,4 @@
-package com.personal.projects.lovableClone.Entity;
+package com.personal.projects.lovableClone.entity;
 
 import lombok.Data;
 import lombok.AccessLevel;
