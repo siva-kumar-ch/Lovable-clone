@@ -12,8 +12,8 @@ import lombok.experimental.FieldDefaults;
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ProjectMember {
-    User user;
-    Project project;
+    
+    ProjectMemberId id;
     ProjectRole role;
 
     User invitedBy;
